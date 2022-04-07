@@ -1,0 +1,11 @@
+<section
+  *ngIf="info"
+  class="info-banner"
+  [ngClass]="info.side"
+  style="background-image: url('{{ src }}{{ info.image }}')"
+>
+  <div class="info-banner-content text-end">
+    <div class="display-6">"{{ info.content }}"</div>
+    <div class="fw-light">{{ info.author }}</div>
+  </div>
+</section>

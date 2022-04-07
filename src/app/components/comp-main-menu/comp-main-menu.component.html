@@ -1,7 +1,7 @@
 <nav class="d-grid gap-2 p-2">
   <button
     *ngFor="let menu of menuList"
-    class="btn btn-primary text-start"
+    class="btn btn-primary btn-sm text-start"
     [routerLink]="menu.link"
   >
     <i class="fa fa-fw me-2" [ngClass]="menu.icon"></i>
