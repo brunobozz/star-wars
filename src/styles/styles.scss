@@ -1,0 +1,44 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./fonts";
+
+html,
+body {
+  margin: 0;
+}
+
+.font-fredoka {
+  font-family: "Fredoka", sans-serif;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+select,
+select:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+//Scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+::-webkit-scrollbar-thumb {
+  background: darken(#f33f3f, 20%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: darken(#f33f3f, 15%);
+}
