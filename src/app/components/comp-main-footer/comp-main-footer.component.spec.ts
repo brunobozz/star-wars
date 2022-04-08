@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompInfoBannerComponent } from './comp-info-banner.component';
+import { CompMainFooterComponent } from './comp-main-footer.component';
 
-describe('CompInfoBannerComponent', () => {
-  let component: CompInfoBannerComponent;
-  let fixture: ComponentFixture<CompInfoBannerComponent>;
+describe('CompMainFooterComponent', () => {
+  let component: CompMainFooterComponent;
+  let fixture: ComponentFixture<CompMainFooterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CompInfoBannerComponent ]
+      declarations: [ CompMainFooterComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CompInfoBannerComponent);
+    fixture = TestBed.createComponent(CompMainFooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,5 +1,5 @@
 .home {
-  height: 100vh;
+  height: calc(100vh - 54px);
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -11,10 +11,10 @@
   &-logo {
     display: block;
     margin: 10% auto;
-    width: 600px;
-    max-width: 80%;
+    width: 400px;
+    max-width: 70%;
     max-height: 50vh;
-    height: 350px;
+    height: 200px;
     position: absolute;
     z-index: 100;
     top: 20%;
@@ -103,12 +103,6 @@
     background-image: url(../../../../../assets/silhouette-home.svg);
   }
 
-  // @media only screen and (orientation: portrait) {
-  //   &-silhouette {
-  //     background-image: url(../../../../../assets/silhouette-home_mobile.svg);
-  //   }
-  // }
-
   &-bottom {
     position: absolute;
     bottom: 0;
@@ -116,4 +110,17 @@
     height: 50px;
     background-color: #000;
   }
+}
+
+.grad-negative {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  position: absolute;
 }

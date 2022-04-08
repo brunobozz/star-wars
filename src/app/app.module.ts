@@ -13,6 +13,7 @@ import { PeoplesModule } from './modules/peoples/peoples.module';
 import { CompMainMenuComponent } from './components/comp-main-menu/comp-main-menu.component';
 import { CompMainSidebarComponent } from './components/comp-main-sidebar/comp-main-sidebar.component';
 import { CompMainNavbarComponent } from './components/comp-main-navbar/comp-main-navbar.component';
+import { CompMainFooterComponent } from './components/comp-main-footer/comp-main-footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CompMainNavbarComponent } from './components/comp-main-navbar/comp-main
     CompMainMenuComponent,
     CompMainSidebarComponent,
     CompMainNavbarComponent,
+    CompMainFooterComponent,
   ],
   imports: [
     BrowserModule,

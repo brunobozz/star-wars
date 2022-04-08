@@ -25,11 +25,11 @@ $yellow: #f89406 !default;
 $green: #62c462 !default;
 $teal: #20c997 !default;
 $cyan: #5bc0de !default;
-$bozz-red1: #f33f3f !default;
-$bozz-red2: #912a2a !default;
+$star-wars-yellow: rgb(255, 232, 31) !default;
+$star-wars-gray: rgb(200, 200, 200) !default;
 
-$primary: $bozz-red1 !default;
-$secondary: $bozz-red2 !default;
+$primary: $star-wars-yellow !default;
+$secondary: $star-wars-gray !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;

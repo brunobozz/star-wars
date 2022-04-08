@@ -31,14 +31,14 @@ label:focus,
 
 //Scrollbar
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: #e0e0e0;
+  background: #333;
 }
 ::-webkit-scrollbar-thumb {
-  background: darken(#f33f3f, 20%);
+  background: darken(rgb(255, 232, 31), 5);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: darken(#f33f3f, 15%);
+  background: darken(rgb(255, 232, 31), 10%);
 }
