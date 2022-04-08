@@ -5,14 +5,22 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
 
+//MODULES
+import { HomeModule } from './modules/home/home.module';
+import { PeoplesModule } from './modules/peoples/peoples.module';
+
 //COMPONENTS
 import { CompMainMenuComponent } from './components/comp-main-menu/comp-main-menu.component';
-import { HomeModule } from './modules/home/home.module';
 import { CompMainSidebarComponent } from './components/comp-main-sidebar/comp-main-sidebar.component';
 import { CompMainNavbarComponent } from './components/comp-main-navbar/comp-main-navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, CompMainMenuComponent, CompMainSidebarComponent, CompMainNavbarComponent],
+  declarations: [
+    AppComponent,
+    CompMainMenuComponent,
+    CompMainSidebarComponent,
+    CompMainNavbarComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -25,6 +33,7 @@ import { CompMainNavbarComponent } from './components/comp-main-navbar/comp-main
     }),
 
     HomeModule,
+    PeoplesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

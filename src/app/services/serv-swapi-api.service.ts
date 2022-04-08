@@ -13,4 +13,8 @@ export class ServSwapiApiService {
   public getData(value: string) {
     return this.http.get(this.API_PREFIX + value);
   }
+
+  public getUrl(value: string) {
+    return this.http.get(value);
+  }
 }

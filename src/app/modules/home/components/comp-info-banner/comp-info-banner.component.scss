@@ -1,12 +1,22 @@
 .info-banner {
+  position: relative;
   display: flex;
   align-items: center;
   height: 500px;
   width: 100%;
   background-position: center;
   background-size: cover;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.9);
+
+  &-dots {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../../../../assets/images/general/dots.png");
+  }
 
   &-content {
+    position: relative;
     width: 50%;
     padding: 10%;
     color: #fff;

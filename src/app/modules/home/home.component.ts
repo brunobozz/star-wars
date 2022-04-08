@@ -11,4 +11,11 @@ export class HomeComponent {
     image: '01.jpg',
     side: 'letf',
   };
+
+  public mandalorian: any = {
+    author: 'Mandalorian',
+    content: 'Como deve ser',
+    image: '04.jpg',
+    side: 'letf',
+  };
 }

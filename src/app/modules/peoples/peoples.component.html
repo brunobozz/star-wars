@@ -1,0 +1,7 @@
+<div class="container p-4">
+  <ul *ngIf="peoples" class="list-group">
+    <li *ngFor="let people of peoples; let i = index" class="list-group-item">
+      {{ i + 1 }} - {{ people.name }}
+    </li>
+  </ul>
+</div>
