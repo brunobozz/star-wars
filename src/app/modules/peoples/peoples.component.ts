@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ModelPeople } from 'src/app/models/model-people';
 import { ServSwapiApiService } from 'src/app/services/serv-swapi-api.service';
 
 @Component({
@@ -6,6 +7,7 @@ import { ServSwapiApiService } from 'src/app/services/serv-swapi-api.service';
   templateUrl: './peoples.component.html',
 })
 export class PeoplesComponent implements OnInit {
+  public people: ModelPeople | undefined;
   public peoples: any = [];
 
   constructor(private swapiApi: ServSwapiApiService) {}
